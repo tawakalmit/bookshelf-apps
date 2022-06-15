@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>MIT Bookshelf Apps</title>
+</head>
+<body>
+
+<header>
+	<h1>MIT Bookshelf Apps</h1>
+	<h2>Manage your books, easily done!</h2>
+	<p>There is <span id="totalbooks">0</span> book(s) inside</p>
+	<div class="add"><img src="icon/plus.png" class="icon"></div>
+</header>
+
+<main>
+	<div class="unread box bg-turq" id="unread">
+		<h2>Unread</h2>
+	</div>
+	<div class="read box bg-gr" id="read">
+		<h2>Finish</h2>
+	</div>
+</main>
+
+<div class="addBookField">
+	<div class="container">
+	<h2>Add Book</h2>
+	<form id="form">
+		<input type="text" id="title" placeholder="Book Title" maxlength="120" required>
+		<input type="text" id="author" placeholder="Author" maxlength="120" required>
+		<input type="date" id="year" required>
+		<div class="buttons">
+		<button type="reset" class="close">Close</button>
+		<button type="reset">Clear</button>
+		<button type="submit">Save</button>
+		</div>
+	</form>
+	</div>
+</div>
+
+<footer>
+	<div class="fbox">
+		<img src="img/1.png" id="pp">
+	</div>
+	<div class="fbox">
+		<h2>M Ikbal Tawakal</h2>
+		<p>Web Developer</p>
+		<img src="icon/whatsapp.png" alt="" class="icon2"><span>0813-2148-6324</span>
+		<img src="icon/instagram.png" alt="" class="icon2"><span>tawakalmit</span>
+		<p>Jl Raya Cimacan No.63 Rt 02/01 Desa Cimacan,<br> Kecamatan Cipanas-Kabupaten Cianjur Jawa Barat 43253 </p>
+	</div>
+	<!-- <div class="fbox">
+		<p>Jl Raya Cimacan No.63 Rt 02/01 Desa Cimacan, Kecamatan Cipanas-Kabupaten Cianjur Jawa Barat 43253 </p>
+	</div> -->
+</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
